@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+# If you change your Vercel domain, update the URL below:
+Sitemap: https://eloquence-engine.vercel.app/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
