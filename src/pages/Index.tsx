@@ -1,5 +1,5 @@
 import React, { useState, useRef, useCallback } from "react";
-import { victorianify } from "../tools/victorianify";
+import { fetchVictorianTransformationMCP } from "../lib/llmClient";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import { SparklesCore } from "@/components/ui/sparkles";
 
@@ -42,7 +42,7 @@ const Index = () => {
       });
     }
     try {
-      const result = await victorianify(inputText);
+      const result = await fetchVictorianTransformationMCP(inputText);
       setOutputText(result);
     } catch (err) {
       setOutputText("");
@@ -56,7 +56,7 @@ const Index = () => {
   const handleGenerateAnother = async () => {
     setIsLoading(true);
     try {
-      const result = await victorianify(inputText);
+      const result = await fetchVictorianTransformationMCP(inputText);
       setOutputText(result);
     } catch (err) {
       setOutputText("");

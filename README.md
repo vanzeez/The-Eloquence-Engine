@@ -4,7 +4,7 @@ Tired of Gen Z mutterings that resemble code more than conversation? Fear not. T
 
 ## What Is This?
 
-A web-based contraption that transmutes your most chaotic, slang-laden expressions into eloquence befitting a candlelit salon in Her Majesty's court. Cast your acronyms, abbreviations, and emotional outbursts into the box — and out shall emerge prose laced with wit, lace, and passive-aggressive grandeur.
+A web-based contraption that transmutes your most chaotic, slang-laden expressions into eloquence befitting a candlelit salon in Her Majesty's court. Cast your acronyms, abbreviations, and emotional outbursts into the box, and out shall emerge prose laced with wit, lace, and passive-aggressive grandeur.
 
 ## Features
 
@@ -38,14 +38,6 @@ A web-based contraption that transmutes your most chaotic, slang-laden expressio
 ## Deployment
 
 Deploy with grace to [Vercel](https://vercel.com/) (recommended) or Netlify. Configuration files (`vercel.json`, `netlify.toml`) are provided. See below for Vercel setup instructions.
-
-## Vercel Deployment Steps
-
-1. Push your code to [https://github.com/vanzeez/The-Eloquence-Engine](https://github.com/vanzeez/The-Eloquence-Engine)
-2. Go to [https://vercel.com/import](https://vercel.com/import) and import your repo.
-3. In the Vercel dashboard, go to Project Settings → Environment Variables.
-4. Add `VITE_OPENROUTER_KEY` with your real API key.
-5. Deploy!
 
 ## Customization
 
