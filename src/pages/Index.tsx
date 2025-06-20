@@ -232,7 +232,7 @@ const Index = () => {
             </div>
           )}
         </div>
-        <footer className="w-full pb-8 md:pb-4 pt-8 md:pt-0 text-center z-50 relative">
+        <footer className="w-full text-center z-50 fixed bottom-0 left-0 bg-dark-charcoal py-4 border-t border-regal-gold">
           <p className="text-gray-500 text-base md:text-xl px-2" style={{ fontFamily: 'IM Fell English, serif' }}>
             Initiative by a <a href="https://github.com/vanzeez" target="_blank" rel="noopener noreferrer" className="text-regal-gold hover:text-yellow-300 font-bold underline inline">Victorian lady</a> to bestow your Gen Z musings with a touch of Victorian grandeur.
           </p>
