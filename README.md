@@ -43,7 +43,7 @@ A web-based contraption that transmutes your most chaotic, slang-laden expressio
 
 ## Deployment
 
-Deploy with grace to [Vercel](https://vercel.com/) (recommended) or Netlify. Configuration files (`vercel.json`, `netlify.toml`) are provided. See below for Vercel setup instructions.
+Deploy with grace to [Vercel](https://vercel.com/) (recommended) or Netlify. Configuration files (`vercel.json`, `netlify.toml`) are provided. 
 
 ## Customization
 
