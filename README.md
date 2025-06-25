@@ -23,12 +23,13 @@ Translator → Eloquence Refiner: A structured reasoning chain to first interpre
 ## How It Works
 
 **This project simulates agentic behavior using structured prompt engineering:**
+
 Your input is passed to a two-layer LLM pipeline:
-**Layer 1** — Translator Agent: converts slang to neutral English.
-**Layer 2** — Eloquence Agent: transforms it into sarcastic Victorian prose.
+- **Layer 1** — Translator Agent: converts slang to neutral English.
+- **Layer 2** — Eloquence Agent: transforms it into sarcastic Victorian prose.
+
 These prompts are composed using persona-driven instructions, sent via OpenRouter to Mistral AI, with clear role segmentation and clean fallback/error handling.
 The client (React app) serves as a minimalistic MCP-style UI, separating interaction logic from LLM orchestration.
-
 It’s not a full agentic system yet, but the architecture mimics many MCP principles such as modular prompt units, chain-of-thought refinement, and future-ready tool compatibility.
 
 ## Usage
