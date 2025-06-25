@@ -8,7 +8,7 @@ Tired of Gen Z mutterings that resemble code more than conversation? Fear not. T
 
 A web-based LLM playground built to demonstrate how prompt pipelines, modular role-based reasoning, and agentic design patterns can be used to create functional, humorous, and layered interactions with language models.
 
-Inspired by Anthropic’s Model Context Protocol (MCP), this architecture simulates a lightweight, MCP-aligned agent pipeline — without requiring full orchestration frameworks like LangChain or LangGraph.
+Inspired by Anthropic’s Model Context Protocol (MCP), this architecture simulates a lightweight, MCP-aligned agent pipeline without requiring full orchestration frameworks like LangChain or LangGraph.
 
 ## Features
 
