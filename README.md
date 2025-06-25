@@ -6,14 +6,30 @@ Tired of Gen Z mutterings that resemble code more than conversation? Fear not. T
 
 ## What Is This?
 
-A web-based contraption that transmutes your most chaotic, slang-laden expressions into eloquence befitting a candlelit salon in Her Majesty's court. Cast your acronyms, abbreviations, and emotional outbursts into the box, and out shall emerge prose laced with wit, lace, and passive-aggressive grandeur.
+A web-based LLM playground built to demonstrate how prompt pipelines, modular role-based reasoning, and agentic design patterns can be used to create functional, humorous, and layered interactions with language models.
+
+Inspired by Anthropic’s Model Context Protocol (MCP), this architecture simulates a lightweight, MCP-aligned agent pipeline — without requiring full orchestration frameworks like LangChain or LangGraph.
 
 ## Features
 
+- **Two-Layer Prompt Pipeline**:
+Translator → Eloquence Refiner: A structured reasoning chain to first interpret slang, then elevate tone.
 - **Victorian Rephrasing**: Transforms slang, text-speak, and unholy acronyms into theatrical Victorian sass.
 - **Aesthetic Interface**: As visually refined as the language it wields.
 - **Responsive Design**: Operates flawlessly across screens, whether you're browsing from your study or chamber pot.
+- **Forward-Compatible Design**: Designed with future tool-calling and memory integration in mind (via OpenRouter + Mistral AI).
 - **Sound Fanfare**: A trumpet salute to honour the rebirth of your words.
+
+## How It Works
+
+**This project simulates agentic behavior using structured prompt engineering:**
+Your input is passed to a two-layer LLM pipeline:
+**Layer 1** — Translator Agent: converts slang to neutral English.
+**Layer 2** — Eloquence Agent: transforms it into sarcastic Victorian prose.
+These prompts are composed using persona-driven instructions, sent via OpenRouter to Mistral AI, with clear role segmentation and clean fallback/error handling.
+The client (React app) serves as a minimalistic MCP-style UI, separating interaction logic from LLM orchestration.
+
+It’s not a full agentic system yet, but the architecture mimics many MCP principles such as modular prompt units, chain-of-thought refinement, and future-ready tool compatibility.
 
 ## Usage
 
